@@ -20,7 +20,7 @@ public class Basedriver {
 	public static WebDriver driver = null;
 
 	@BeforeTest
-	public void lunchURL() throws InterruptedException {
+	public void lunchurl() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
