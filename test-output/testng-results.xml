@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="16" total="24" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Opened browser and mercury site.]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Flight details furnished successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Continued to reserve selected flights.]]>
+    </line>
+    <line>
+      <![CDATA[Passenger details furnished.]]>
+    </line>
+    <line>
+      <![CDATA[Credit card details furnisehd successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Billing address details furnished.]]>
+    </line>
+    <line>
+      <![CDATA[Alert accepted.]]>
+    </line>
+    <line>
+      <![CDATA[Delivery address details provided and 'same as billing' clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Tickets purchased and logged out.]]>
+    </line>
+    <line>
+      <![CDATA[Closed browser and mercury site.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60856" started-at="2020-06-28T20:13:49Z" finished-at="2020-06-28T20:14:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60856" started-at="2020-06-28T20:13:49Z" finished-at="2020-06-28T20:14:50Z">
+      <class name="com.mercury.testcases.TC1">
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:com.mercury.testcases.TC1@3c9d0b9d]" name="test_Login" duration-ms="4165" started-at="2020-06-28T21:14:03Z" finished-at="2020-06-28T21:14:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+      </class> <!-- com.mercury.testcases.TC1 -->
+      <class name="com.mercury.testcases.TC3">
+        <test-method status="PASS" signature="test_ReserveFlights()[pri:0, instance:com.mercury.testcases.TC3@2f112965]" name="test_ReserveFlights" duration-ms="5083" started-at="2020-06-28T21:14:22Z" finished-at="2020-06-28T21:14:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Continued to reserve selected flights.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_ReserveFlights -->
+      </class> <!-- com.mercury.testcases.TC3 -->
+      <class name="com.mercury.testcases.TC2">
+        <test-method status="PASS" signature="test_flightdetails()[pri:0, instance:com.mercury.testcases.TC2@43301423]" name="test_flightdetails" duration-ms="15738" started-at="2020-06-28T21:14:07Z" finished-at="2020-06-28T21:14:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Flight details furnished successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_flightdetails -->
+      </class> <!-- com.mercury.testcases.TC2 -->
+      <class name="com.mercury.testcases.TC8">
+        <test-method status="PASS" signature="test_securepurchaseandlogout()[pri:0, instance:com.mercury.testcases.TC8@163e4e87]" name="test_securepurchaseandlogout" duration-ms="5912" started-at="2020-06-28T21:14:40Z" finished-at="2020-06-28T21:14:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tickets purchased and logged out.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_securepurchaseandlogout -->
+      </class> <!-- com.mercury.testcases.TC8 -->
+      <class name="com.mercury.testcases.TC5">
+        <test-method status="PASS" signature="test_creditcard()[pri:0, instance:com.mercury.testcases.TC5@4e91d63f]" name="test_creditcard" duration-ms="3750" started-at="2020-06-28T21:14:30Z" finished-at="2020-06-28T21:14:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Credit card details furnisehd successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_creditcard -->
+      </class> <!-- com.mercury.testcases.TC5 -->
+      <class name="com.mercury.testcases.TC4">
+        <test-method status="PASS" signature="test_passengers()[pri:0, instance:com.mercury.testcases.TC4@1a04f701]" name="test_passengers" duration-ms="2638" started-at="2020-06-28T21:14:28Z" finished-at="2020-06-28T21:14:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passenger details furnished.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_passengers -->
+      </class> <!-- com.mercury.testcases.TC4 -->
+      <class name="com.mercury.testcases.TC7">
+        <test-method status="PASS" signature="test_deliveryaddressandsameasbilling()[pri:0, instance:com.mercury.testcases.TC7@2bbf180e]" name="test_deliveryaddressandsameasbilling" duration-ms="4131" started-at="2020-06-28T21:14:36Z" finished-at="2020-06-28T21:14:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Alert accepted.]]>
+            </line>
+            <line>
+              <![CDATA[Delivery address details provided and 'same as billing' clicked.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_deliveryaddressandsameasbilling -->
+      </class> <!-- com.mercury.testcases.TC7 -->
+      <class name="com.mercury.basedriver.Basedriver">
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:com.mercury.basedriver.Basedriver@6dbb137d]" name="lunchURL" is-config="true" duration-ms="13812" started-at="2020-06-28T21:13:49Z" finished-at="2020-06-28T21:14:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opened browser and mercury site.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mercury.basedriver.Basedriver@6dbb137d]" name="closeBrowser" is-config="true" duration-ms="3334" started-at="2020-06-28T21:14:46Z" finished-at="2020-06-28T21:14:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed browser and mercury site.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mercury.basedriver.Basedriver -->
+      <class name="com.mercury.testcases.TC6">
+        <test-method status="PASS" signature="test_BillingAddressAndTicketless()[pri:0, instance:com.mercury.testcases.TC6@d4342c2]" name="test_BillingAddressAndTicketless" duration-ms="2251" started-at="2020-06-28T21:14:34Z" finished-at="2020-06-28T21:14:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Billing address details furnished.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_BillingAddressAndTicketless -->
+      </class> <!-- com.mercury.testcases.TC6 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
